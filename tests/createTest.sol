@@ -12,8 +12,12 @@ contract Account {
 }
 
 contract AccountFactory {
-    function createAccount(address _owner) external {
-        //  add something
+    Account[] public accounts;
+
+    function createAccount(address _owner) external payable {
+        Account account = new Account{value: 111}(_owner);
+        accounts.push(account);
 
     }
 }
+

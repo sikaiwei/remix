@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/ERC721.sol": "IE"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/ERC721.sol": {
+			"keccak256": "0x9971ed1f11a1f1aafd3c3f4c5a7918813792d9ca2c16d07eec9eabca1f23f555",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a0bdd9040e5d9f3f92318e451558bee711c6ade2068f8402bd4bff461a30f529",
+				"dweb:/ipfs/QmepKzZ9FpDPmNjYUmjpiaNPdoyN3M1ryttqqPWvRuzncT"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,9 +18,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/ERC721.sol": "Name"
+			"tests/ERC20Test.sol": "Name"
 		},
-		"evmVersion": "london",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/ERC721.sol": {
-			"keccak256": "0xdbcf9770026f9cbff84f364de5f8121002db2755a85fad7af95ee7ea40a82d2c",
+		"tests/ERC20Test.sol": {
+			"keccak256": "0xaf9dc2f260cc4c13c51d5c87c4abc58082a98ba9c346cd507447b3049582101c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7758ed2354de60addb3693baa29974de404e6e150adf4f00198f1ef53b69d6c5",
-				"dweb:/ipfs/QmP4t7Wc1LZ33TRUGfEFrqxuvW5ZHuK7skDFFo2jW1XQjw"
+				"bzz-raw://875d32c128e504492728e5cf4feae026174130036679e34780da86ec679f9937",
+				"dweb:/ipfs/QmfKBWrp9qoeVBJDSkFZkBDFD7YQVbyRXjyCEHXW4CMacL"
 			]
 		}
 	},

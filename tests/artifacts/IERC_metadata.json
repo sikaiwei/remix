@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/englishAuctionTest.sol": "IERC"
+			"tests/CrowdFund.sol": "IERC"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/englishAuctionTest.sol": {
+		"tests/CrowdFund.sol": {
 			"keccak256": "0x3e0d6026a06552c5f5b7cd26778aa736572d2a886a18863c693c376066f30957",
 			"license": "MIT",
 			"urls": [

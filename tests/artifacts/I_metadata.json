@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/ERC20Test.sol": "I"
+			"tests/CrowdFund.sol": "I"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/ERC20Test.sol": {
-			"keccak256": "0xa3845e4a5af3ddf702eae3bfcecb49772fe3595ca69ca5b01b369272cdb2ef8e",
+		"tests/CrowdFund.sol": {
+			"keccak256": "0x5bd593f3d880e26d95edb54d60ad488885b2abf5653f941c7e931951046c74db",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://78638b54f6ba08f9bff38a979421d59984fa925b6a175c21286921e948e7e6f4",
-				"dweb:/ipfs/QmQX46opmEKYC1LVF5ZKQyjXoVd6Xr37YSvcLKHEf2mNiu"
+				"bzz-raw://5f375dce06caeacffb38354deb65fa529e4d0fe2e035e328a95b9773e5662f69",
+				"dweb:/ipfs/QmctRx6KiJGq5zZTtpmkszdM6KQ4t6dpgY9oQRJ1KsV3qK"
 			]
 		}
 	},

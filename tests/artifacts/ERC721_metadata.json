@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.27+commit.40a35a09"
 	},
 	"language": "Solidity",
 	"output": {
@@ -84,12 +84,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "to",
+						"name": "spender",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -110,7 +110,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "balance",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -121,7 +121,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -129,7 +129,7 @@
 				"outputs": [
 					{
 						"internalType": "address",
-						"name": "operator",
+						"name": "",
 						"type": "address"
 					}
 				],
@@ -164,7 +164,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -193,7 +193,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -216,7 +216,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					},
 					{
@@ -239,7 +239,7 @@
 					},
 					{
 						"internalType": "bool",
-						"name": "_approved",
+						"name": "approved",
 						"type": "bool"
 					}
 				],
@@ -264,7 +264,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -281,7 +281,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -304,9 +304,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/ERC721.sol": "ERC721"
+			"tests/NFT.sol": "ERC721"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -318,12 +318,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/ERC721.sol": {
-			"keccak256": "0xcdfcbd89504277472df1649ee4eb81a9d94edfd4d3bffb7b9882ac828352b119",
+		"tests/NFT.sol": {
+			"keccak256": "0x0ba544f7fbccd0cda6f6cab0d96bd5e2fd1c6443aa5b81872b672a5a1b6add96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b96696e46b2feb7dd478990f8119dd1b3d77a27913986858d0c637554b7a3987",
-				"dweb:/ipfs/QmVDMT1M666PJfbf2YEZiPGSMSWuQnJL2fNhJs128z1HsR"
+				"bzz-raw://54133b956359e82de0c4d27908399c195f4fb43c0ebb6ba4a30ed694f9e01958",
+				"dweb:/ipfs/QmaVDz2dUwrJn9xiih2S76cUEgGjF3bm4g6KeBXyXmYUAt"
 			]
 		}
 	},

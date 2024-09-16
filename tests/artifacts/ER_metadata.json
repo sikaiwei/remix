@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/englishAuctionTest.sol": "IERC"
+			"tests/englishAuctionTest.sol": "ER"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"tests/englishAuctionTest.sol": {
-			"keccak256": "0x3e0d6026a06552c5f5b7cd26778aa736572d2a886a18863c693c376066f30957",
+			"keccak256": "0x9a440d204de2743c9c4af3b875973d35724464952c40c2517d89ec532d295eba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9dff76ff5c1e8a277f84f17118860ca15674ae55bc067149a209e633dc0b77a4",
-				"dweb:/ipfs/QmNMeZSdM6utxkUuXDTwfqrfHWc2LAbyxXUk6SjcS3rKc8"
+				"bzz-raw://334285b1c6246bb178a2b33872fd4a1b483df529bb027912b6f29ce435a384ea",
+				"dweb:/ipfs/QmPU8p3njiRXdWR1GJGv8wiyym5PhM9nP8fvvyzSnoY99C"
 			]
 		}
 	},

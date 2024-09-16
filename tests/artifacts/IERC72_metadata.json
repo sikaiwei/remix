@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/englishAuctionTest.sol": "IERC"
+			"tests/dutchAuctionTest.sol": "IERC72"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/englishAuctionTest.sol": {
-			"keccak256": "0x3e0d6026a06552c5f5b7cd26778aa736572d2a886a18863c693c376066f30957",
+		"tests/dutchAuctionTest.sol": {
+			"keccak256": "0x69ff0ec7dceda7f2c5b8801392e89c4e6cb16429934be0bbbf75fb07ad1a1c2a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9dff76ff5c1e8a277f84f17118860ca15674ae55bc067149a209e633dc0b77a4",
-				"dweb:/ipfs/QmNMeZSdM6utxkUuXDTwfqrfHWc2LAbyxXUk6SjcS3rKc8"
+				"bzz-raw://a869f7c18a1a86ebfcead45f79c02d8bf05f71dff7c3531c356edd40da974eef",
+				"dweb:/ipfs/Qmdspva1rBJ2WYE5sCMFrjCYKPch5n6WA9Jr5x6BXwkC7W"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.3+commit.8d00100c"
 	},
 	"language": "Solidity",
 	"output": {
@@ -85,7 +85,7 @@
 						"type": "bytes"
 					}
 				],
-				"name": "virify",
+				"name": "verify",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -112,7 +112,7 @@
 		"compilationTarget": {
 			"tests/VerifySignature.sol": "VerifySig"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -125,11 +125,11 @@
 	},
 	"sources": {
 		"tests/VerifySignature.sol": {
-			"keccak256": "0xb824f6a0ec0e6471f3a3dfae62b5cab6de28ae5ca445b1a241856140b07ec07a",
+			"keccak256": "0x7ff99eb9654a607c96426ebb8f80f569d0a3b61f49e9b815e7a4a717a81b2ad2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3fdd5c4710633afb3b0d1896623cc3554cf6aaa3dff95847aa597c81ec895d0c",
-				"dweb:/ipfs/QmZvgNhF88jdMUA3LeqfKKE3QqzQ2xvViFmQnTMuH6DN8H"
+				"bzz-raw://733a4984cacfef41d5725d5b796e9c6180543d8aa5237fdd3e61168f6abe3344",
+				"dweb:/ipfs/QmewvByEApRjvfPchVJ9v1gN8e7ekwBbRfe14kY4XZn2jL"
 			]
 		}
 	},

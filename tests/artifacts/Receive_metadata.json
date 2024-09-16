@@ -1,41 +1,38 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "operator",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "tokenId",
-						"type": "uint256"
-					},
-					{
+						"indexed": false,
 						"internalType": "bytes",
 						"name": "data",
 						"type": "bytes"
 					}
 				],
-				"name": "onERC721Received",
-				"outputs": [
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [
 					{
-						"internalType": "bytes4",
-						"name": "",
-						"type": "bytes4"
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
 					}
 				],
+				"name": "transfer",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -53,9 +50,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/NFT.sol": "IERC721Receiver"
+			"tests/FunctionSelector.sol": "Receive"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -67,12 +64,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/NFT.sol": {
-			"keccak256": "0x0ba544f7fbccd0cda6f6cab0d96bd5e2fd1c6443aa5b81872b672a5a1b6add96",
+		"tests/FunctionSelector.sol": {
+			"keccak256": "0xff8653a15ab8e418d3b7c0126d50912892a8f39d56598c1e265b4d53336da783",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://54133b956359e82de0c4d27908399c195f4fb43c0ebb6ba4a30ed694f9e01958",
-				"dweb:/ipfs/QmaVDz2dUwrJn9xiih2S76cUEgGjF3bm4g6KeBXyXmYUAt"
+				"bzz-raw://1be7d1b1386a1e048e9c17e96ebc26ecf3102a516dfad6c156d38b2e231aa50e",
+				"dweb:/ipfs/QmPCGtVFVdrirsmsHuJZgJjeoX83W7udgwjzL7Hfv66s88"
 			]
 		}
 	},

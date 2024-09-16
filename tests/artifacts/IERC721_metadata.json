@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.27+commit.40a35a09"
 	},
 	"language": "Solidity",
 	"output": {
@@ -177,7 +177,7 @@
 				"inputs": [
 					{
 						"internalType": "bytes4",
-						"name": "interfaceId",
+						"name": "interfaceID",
 						"type": "bytes4"
 					}
 				],
@@ -229,9 +229,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/ERC721.sol": "IERC721"
+			"tests/NFT.sol": "IERC721"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -243,12 +243,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/ERC721.sol": {
-			"keccak256": "0xcdfcbd89504277472df1649ee4eb81a9d94edfd4d3bffb7b9882ac828352b119",
+		"tests/NFT.sol": {
+			"keccak256": "0x0ba544f7fbccd0cda6f6cab0d96bd5e2fd1c6443aa5b81872b672a5a1b6add96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b96696e46b2feb7dd478990f8119dd1b3d77a27913986858d0c637554b7a3987",
-				"dweb:/ipfs/QmVDMT1M666PJfbf2YEZiPGSMSWuQnJL2fNhJs128z1HsR"
+				"bzz-raw://54133b956359e82de0c4d27908399c195f4fb43c0ebb6ba4a30ed694f9e01958",
+				"dweb:/ipfs/QmaVDz2dUwrJn9xiih2S76cUEgGjF3bm4g6KeBXyXmYUAt"
 			]
 		}
 	},

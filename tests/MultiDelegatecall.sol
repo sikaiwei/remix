@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.7;
+pragma solidity 0.8.24;
 
 contract MultiDelegatecall {
     error DelegatecallFailed();
@@ -39,7 +39,7 @@ contract Helper {
     function getFunc1Data(uint256 x, uint256 y)
         external 
         pure 
-        returns(byres memory) {
+        returns(bytes memory) {
             return abi.encodeWithSelector(TestMultiDelegatecall.func1.selector, x, y);
         }
 

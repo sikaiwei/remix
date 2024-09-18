@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,17 +8,24 @@
 			{
 				"inputs": [
 					{
-						"internalType": "bytes4",
-						"name": "interfaceId",
-						"type": "bytes4"
+						"internalType": "uint256[]",
+						"name": "nums",
+						"type": "uint256[]"
 					}
 				],
-				"name": "supportsInterface",
+				"name": "sumIfEvenAndLessThan99",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "total",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bool"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -38,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/ERC721.sol": "IERC165"
+			"tests/GasGolf.sol": "GasGolf"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -52,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/ERC721.sol": {
-			"keccak256": "0xcdfcbd89504277472df1649ee4eb81a9d94edfd4d3bffb7b9882ac828352b119",
+		"tests/GasGolf.sol": {
+			"keccak256": "0x483901b10558e649ddb4496044cbf1ffa804434643f3e8392582dc55fc431999",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b96696e46b2feb7dd478990f8119dd1b3d77a27913986858d0c637554b7a3987",
-				"dweb:/ipfs/QmVDMT1M666PJfbf2YEZiPGSMSWuQnJL2fNhJs128z1HsR"
+				"bzz-raw://62deab6a2c02b129a804dc4bfdacbdb1e795c44d85d2cdd9f0c6335a2a6b7f37",
+				"dweb:/ipfs/QmZfJtTX6fmvg8JKjvC9nkLN7z5TemF9yAPnygQP8sC3XV"
 			]
 		}
 	},

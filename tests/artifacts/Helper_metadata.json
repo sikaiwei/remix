@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,35 +8,38 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "operator",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "x",
 						"type": "uint256"
 					},
 					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "getFunc1Data",
+				"outputs": [
+					{
 						"internalType": "bytes",
-						"name": "data",
+						"name": "",
 						"type": "bytes"
 					}
 				],
-				"name": "onERC721Received",
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFunc2Data",
 				"outputs": [
 					{
-						"internalType": "bytes4",
+						"internalType": "bytes",
 						"name": "",
-						"type": "bytes4"
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -53,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/ERC721.sol": "IERC721Receiver"
+			"tests/MultiDelegatecall.sol": "Helper"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -67,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/ERC721.sol": {
-			"keccak256": "0xcdfcbd89504277472df1649ee4eb81a9d94edfd4d3bffb7b9882ac828352b119",
+		"tests/MultiDelegatecall.sol": {
+			"keccak256": "0x4e7f2550f8def37a8479710c4919743c28366ffe9b933893c25577b2f66eceb7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b96696e46b2feb7dd478990f8119dd1b3d77a27913986858d0c637554b7a3987",
-				"dweb:/ipfs/QmVDMT1M666PJfbf2YEZiPGSMSWuQnJL2fNhJs128z1HsR"
+				"bzz-raw://1ae767dab04c902222787fc0c782e6918e313afaa50b29e263c53eceba458e83",
+				"dweb:/ipfs/QmWuwdSxqSCWxtVvFLGJGMqEKC9GWQWGiAPMV4Z13Z1Jo8"
 			]
 		}
 	},

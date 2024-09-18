@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,12 +9,92 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
 						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "accout",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
@@ -33,17 +113,17 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "spender",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "recipient",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
@@ -72,7 +152,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/CrowdFund.sol": "IERC20"
+			"tests/ERC20Test.sol": "IERC20"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -86,12 +166,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/CrowdFund.sol": {
-			"keccak256": "0x6f6062719f7da4609311560268affcc718a707ede395acd38fc32575d1f167a0",
+		"tests/ERC20Test.sol": {
+			"keccak256": "0xbacdbc69a328f51b3d17a40743a5af3f482db86fa8e5d6bc956775e45cc66751",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://caae01b2945d059baa44cbadb893cf39232079c56974f46da05d6ed4eaab7b9a",
-				"dweb:/ipfs/QmW3ZUMSRaPBXedVjpLgSKX4X7fCmRMsNfREevDi9sDbgt"
+				"bzz-raw://e93145e01eeeb809a155c0674de38b33f43a71fe260c6a4003317cbbb870e182",
+				"dweb:/ipfs/QmQ1QyoYQB1fe6wrEtYfojwG9GgETyNzUWM4QLvGSKMtKc"
 			]
 		}
 	},

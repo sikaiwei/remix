@@ -451,7 +451,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/IERC20.sol": "MyToken"
+			"tests/ERC20.sol": "MyToken"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -505,12 +505,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"tests/IERC20.sol": {
-			"keccak256": "0xb3a00972daa1ee6fac0101f4093d0daf2dd97c51713d86cb61dde96a10b9f630",
+		"tests/ERC20.sol": {
+			"keccak256": "0x872364e1e054885ccd623203dcf9241d418e3410973f2a0eebeb303b76fd5c80",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1651fd2bcb378af0977c57b54d0065dfa3fb8398230494807ca0b46c1989437e",
-				"dweb:/ipfs/QmTq6S1e1ZYG38RaVygBSgSqbYDBWGA3mY8mYHVQ4Bcjxz"
+				"bzz-raw://67faf39d2f018aae748ba42c680dbf3c9b67b9ba73a8c179c8d0d2ab25fe8bf9",
+				"dweb:/ipfs/QmYyE4j4Jb6Lqd6Tczwajz66zVC5EtTDf1QCKuFngjNFkR"
 			]
 		}
 	},

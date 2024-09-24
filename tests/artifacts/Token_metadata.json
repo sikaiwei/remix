@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/3Ways_toEncodeCallData.sol": "IERC20"
+			"tests/3Ways_toEncodeCallData.sol": "Token"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

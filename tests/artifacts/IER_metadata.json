@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/dutchAuctionTest.sol": "IER"
+			"tests/3Ways_toEncodeCallData.sol": "IER"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/dutchAuctionTest.sol": {
-			"keccak256": "0x3e8cf47fd3fd6e97240c5479a39e5cceabe7e188029137d6e7af5d887ab1a9ff",
+		"tests/3Ways_toEncodeCallData.sol": {
+			"keccak256": "0xa2c314763e9fe07bda7bed467604783ff2244b9d200f0efd0cedee0be22bfe54",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e18b6a8aff735b1cf25c7bb7a7ddfcefa53e210d025e5916f444ff64d292ff8",
-				"dweb:/ipfs/QmZiHB9uXawcbdsUZy2838crua5YCAmgSwUgNoAG35Wz87"
+				"bzz-raw://62f5653bb88456209cc3bbdcaddb8126f0fbbc40d9480baa8e7a1d41393577ff",
+				"dweb:/ipfs/QmU2ore98rQj1Zsa9CJ15TJ5Xv8j4b3AYaCNEovywin8XA"
 			]
 		}
 	},

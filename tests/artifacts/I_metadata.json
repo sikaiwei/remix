@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/CrowdFund.sol": "I"
+			"tests/DiscreteStakingRewards.sol": "I"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/CrowdFund.sol": {
+		"tests/DiscreteStakingRewards.sol": {
 			"keccak256": "0x5bd593f3d880e26d95edb54d60ad488885b2abf5653f941c7e931951046c74db",
 			"license": "MIT",
 			"urls": [

@@ -6,20 +6,28 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
+				"inputs": [],
+				"name": "count",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "transfer",
-				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -37,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/3Ways_toEncodeCallData.sol": "IERC20"
+			"tests/InputAndOutputFallback.sol": "Counter"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -51,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/3Ways_toEncodeCallData.sol": {
-			"keccak256": "0x03efa6fb8588cf32025fdeba3ce70bfe629186190352188b4fd78c818feef6bc",
+		"tests/InputAndOutputFallback.sol": {
+			"keccak256": "0xf06a8b2b766ccf82cec552b185a82c5e5ddf8c89cd50e3d173a80c608f5afc5a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1b53dc942f7305bc68ac0125ec565ae4126fabe6545a48508e3a1e185ef05eff",
-				"dweb:/ipfs/QmYayPogkaEs48NfEwPVR8SgJ8qC6UNq1jKUWZsdM7JbPE"
+				"bzz-raw://e6bb0c6ce6b1d145acd88e400311b57d2b6cd0edbd5235ad61477081ed2deef5",
+				"dweb:/ipfs/Qma9fN9tGH1QuB3jMhqTVx2qdsKJDXQMHcCv8KzfQzP12M"
 			]
 		}
 	},

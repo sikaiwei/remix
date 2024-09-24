@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.24+commit.e11b9ed9"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/CrowdFund.sol": "IERC"
+			"tests/3Ways_toEncodeCallData.sol": "IERC"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/CrowdFund.sol": {
-			"keccak256": "0x3e0d6026a06552c5f5b7cd26778aa736572d2a886a18863c693c376066f30957",
+		"tests/3Ways_toEncodeCallData.sol": {
+			"keccak256": "0xa9f3de872bbfede31437ad4a304617324ac93896f599cd6e3f39d9746bc6fbeb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9dff76ff5c1e8a277f84f17118860ca15674ae55bc067149a209e633dc0b77a4",
-				"dweb:/ipfs/QmNMeZSdM6utxkUuXDTwfqrfHWc2LAbyxXUk6SjcS3rKc8"
+				"bzz-raw://44f527833f8c3a78af3b4b2c561cb35c0da43172f047675756bf8c890a2ca452",
+				"dweb:/ipfs/QmYbR4qfvh1DE3qJvdh6JxMkoha8tGP624KWJZQqCMhBF6"
 			]
 		}
 	},

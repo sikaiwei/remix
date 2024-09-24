@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/3Ways_toEncodeCallData.sol": "Name"
+			"tests/DiscreteStakingRewards.sol": "IERC2000"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/3Ways_toEncodeCallData.sol": {
-			"keccak256": "0xb0e892d421b808577fffe60863b3ab660e36eb1599899947af9aa9bcfa956a99",
+		"tests/DiscreteStakingRewards.sol": {
+			"keccak256": "0xae777c80c6d987a9caba1bfb27bb22fed61ecc1a4ccfa1b3dcc9070b2619f78e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f0c7e498a2ded37e6a32a74fdcfb4dd4b7a5fcf4f891caea20f8f6b3809e84e4",
-				"dweb:/ipfs/QmXMjb9LpXJo3syixkcXKN5pLuXTcZpxmrkx1ALizA3Ayj"
+				"bzz-raw://6c0604e5660ee27b807f07657f38de88cc8507661815c4b2c8c07c481f3a509c",
+				"dweb:/ipfs/QmXJ24NkrgSvuZinEb1W8EnzZdtxnRtY9HAnZ2ExcAf7ih"
 			]
 		}
 	},

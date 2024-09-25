@@ -7,38 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "admin",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "implementation",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -65,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/WrongWayToWriteAnUpgrade.sol": "CounterV1"
+			"tests/WriteToAnySlot.sol": "CounterV1"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -79,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/WrongWayToWriteAnUpgrade.sol": {
-			"keccak256": "0xd474115cbb2ac080287cf0404b62fd5f86bdc4728e33dd93ea7f6071edd51ed5",
+		"tests/WriteToAnySlot.sol": {
+			"keccak256": "0x3c9f56cd2df8a8606bb6599be9f89a4340dba805d885ddbdc1e4e69d6c707948",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f557272dae100324871edb01e9e48c9c3c14dace17a89c60c37afdb1f5e1c345",
-				"dweb:/ipfs/QmfBoe4cgSLv4hvkH6ZoDy9tXwm9kkEhHrZVCHymmCLNiM"
+				"bzz-raw://df54bb862cf96060d37f8120a2837d3f720999766415442ccf06a9b608be4a0d",
+				"dweb:/ipfs/QmNpCz812DkoBKHYkkz79ia2XNi7vjkhKVsDV8eqUftxnk"
 			]
 		}
 	},

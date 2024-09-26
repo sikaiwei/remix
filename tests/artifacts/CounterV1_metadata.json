@@ -54,11 +54,11 @@
 	},
 	"sources": {
 		"tests/WriteToAnySlot.sol": {
-			"keccak256": "0x3c9f56cd2df8a8606bb6599be9f89a4340dba805d885ddbdc1e4e69d6c707948",
+			"keccak256": "0x67dd031b1db36947e92bea86a27b4229f083c618bf55f1b31f59c1e477c2abb6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df54bb862cf96060d37f8120a2837d3f720999766415442ccf06a9b608be4a0d",
-				"dweb:/ipfs/QmNpCz812DkoBKHYkkz79ia2XNi7vjkhKVsDV8eqUftxnk"
+				"bzz-raw://0a3f18262a65f04613ab113a8e3f154d130c2282f1a7a7781ca2a6ec1ee4d481",
+				"dweb:/ipfs/QmekWaTnFhmygRxoi6qjVKoDVk11Gmdq54DePgLbASnScK"
 			]
 		}
 	},

@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/WriteToAnySlot.sol": "BuggyProxy"
+			"tests/WrongWayToWriteAnUpgrade.sol": "BuggyProxy"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -85,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/WriteToAnySlot.sol": {
-			"keccak256": "0x3c9f56cd2df8a8606bb6599be9f89a4340dba805d885ddbdc1e4e69d6c707948",
+		"tests/WrongWayToWriteAnUpgrade.sol": {
+			"keccak256": "0x90e8eee706cdf63db840f3069e2c465480212df2731bc684ebfb81d998ed2610",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://df54bb862cf96060d37f8120a2837d3f720999766415442ccf06a9b608be4a0d",
-				"dweb:/ipfs/QmNpCz812DkoBKHYkkz79ia2XNi7vjkhKVsDV8eqUftxnk"
+				"bzz-raw://71ee2bcbc60f3b1de733e2e12fa816c10ef6aa48e060d3d88296d8e3378fdfda",
+				"dweb:/ipfs/QmVj4rAC8g54Jk4DGhqCcWHL1WJpbaXTLsB1MUxomJVfDQ"
 			]
 		}
 	},

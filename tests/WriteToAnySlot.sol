@@ -12,6 +12,18 @@ pragma solidity 0.8.24;
 //   --proxy admin合约
 //   －实际操作演示
 
+// 代理升级部署流程：
+//   1. 部署代理合约
+//  2. 部署v1合约
+//  3. 复制v1地址，在代理合约中进行升级。 
+//  4. 复制代理地址，在V1合约进行加载。 -- 此为V1 版本
+//  5. 部署V2版本合约。
+//  6. 复制v2地址，在代理合约中进行升级。 
+//  7. 复制代理地址，在V2合约进行加载。 -- 此为V2 版本
+//  升级完成。V1的状态变量数据和槽数据会保留到V2.
+//
+
+
 contract CounterV1 {
 
     uint256 public count;
@@ -93,11 +105,11 @@ contract Proxy{
 
 
     fallback() external payable {
-        _delegate(_getImplementation);
+        _delegate(_getImplementation());
     }
 
     receive() external payable {
-        _delegate(_getImplementation);
+        _delegate(_getImplementation());
     }
 
     function upgradeTo(address _implementation) external {
